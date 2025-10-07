@@ -100,4 +100,4 @@ def update(frame):
 
 # ----- ANIMATION -----
 ani = animation.FuncAnimation(fig, update, init_func=init, interval=10, blit=False)
-plt.show()
+plt.show();
