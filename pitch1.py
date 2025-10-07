@@ -7,7 +7,7 @@ from matplotlib.patches import Rectangle
 from collections import deque
 
 # ----- CONFIG -----
-PORT = '/dev/cu.usbmodem1101'  # <- change if needed
+PORT = 'COM8'  # <- change if needed
 BAUD = 115200
 WINDOW = 200                   # number of samples shown
 
